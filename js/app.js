@@ -45,14 +45,14 @@ function imprimirDados() {
 
   for (let i = 0; i < arrInfo.length; i++) {
     div.innerHTML = `
-                <p><strong>Marca:</strong> ${arrInfo[i].marca}</p>
-                <p><strong>Placa:</strong> ${arrInfo[i].placa}</p>
-                <p><strong>Fabricação:</strong> ${arrInfo[i].fabricacao}</p>
-                <p><strong>Nº do Chassi (Vin):</strong> ${arrInfo[i].vin}</p>
-                <p><strong>Combustível:</strong> ${arrInfo[i].combustivel}</p>
-                <p><strong>Quilometragem em (KM):</strong> ${arrInfo[i].kmAtual}</p>
-                <p><strong>Data da Ultima Manutenção:</strong> ${arrInfo[i].historico}</p>
-                <p><strong>Estado:</strong> ${arrInfo[i].estado}</p>
+                <p><strong>Marca:</strong> ${arrInfo[i].marca}<br>
+               <strong>Placa:</strong> ${arrInfo[i].placa}<br>
+                <strong>Fabricação:</strong> ${arrInfo[i].fabricacao}<br>
+               <strong>Nº do Chassi (Vin):</strong> ${arrInfo[i].vin}<br>
+                <strong>Combustível:</strong> ${arrInfo[i].combustivel}<br>
+                <strong>Quilometragem em (KM):</strong> ${arrInfo[i].kmAtual}<br>
+                <strong>Data da Ultima Manutenção:</strong> ${arrInfo[i].historico}<br>
+                <strong>Estado:</strong> ${arrInfo[i].estado}</p>
          `;
 
     cards.innerHTML += `
